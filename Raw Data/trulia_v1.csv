@@ -1,53 +1,53 @@
-Address,Price,Bed,Bath,LotSize/SqFt,Ownership
+Address,Price,Bed,Bath,LotSize/SqFt,Ownership,Year build
 "5808 NW 109th St,
-Oklahoma City, OK 73162","$209,900",4bd,4ba,"2,746 sqft (on 0.57 acres)","BANK OWNED
-0.57 ACRES"
+Oklahoma City, OK 73162","$209,900 ",4bd,4ba,"2,746 sqft (on 0.57 acres)","BANK OWNED
+0.57 ACRES",1977
 "5324 SE 134th St,
-Oklahoma City, OK 73165","$399,900",3bd,5ba,"4,918 sqft (on 5.02 acres)","BANK OWNED
-5.02 ACRES"
+Oklahoma City, OK 73165","$399,900 ",3bd,5ba,"4,918 sqft (on 5.02 acres)","BANK OWNED
+5.02 ACRES",2004
 "5900 Mosteller Dr #83,
-Oklahoma City, OK 73112","$225,000",1bd,2ba,"1,152 sqft",AUCTION
+Oklahoma City, OK 73112","$225,000 ",1bd,2ba,"1,152 sqft",AUCTION,1960
 "5900 Mosteller Dr #143,
-Oklahoma City, OK 73112","$225,000",1bd,2ba,"1,152 sqft",AUCTION
+Oklahoma City, OK 73112","$225,000 ",1bd,2ba,"1,152 sqft",AUCTION,1960
 "5900 Mosteller Dr #144,
-Oklahoma City, OK 73112","$300,000",2bd,2ba,"1,617 sqft",AUCTION
+Oklahoma City, OK 73112","$300,000 ",2bd,2ba,"1,617 sqft",AUCTION,1960
 "5900 Mosteller Dr #43,
-Oklahoma City, OK 73112","$200,000",1bd,2ba,"1,152 sqft",AUCTION
+Oklahoma City, OK 73112","$200,000 ",1bd,2ba,"1,152 sqft",AUCTION,1960
 "5900 Mosteller Dr #71,
-Oklahoma City, OK 73112","$225,000",1bd,2ba,"1,348 sqft",AUCTION
+Oklahoma City, OK 73112","$225,000 ",1bd,2ba,"1,348 sqft",AUCTION,1960
 "5900 Mosteller Dr #93,
-Oklahoma City, OK 73112","$225,000",1bd,2ba,"1,152 sqft",AUCTION
+Oklahoma City, OK 73112","$225,000 ",1bd,2ba,"1,152 sqft",AUCTION,1960
 "5900 Mosteller Dr #113,
-Oklahoma City, OK 73112","$225,000",1bd,2ba,"1,152 sqft",AUCTION
+Oklahoma City, OK 73112","$225,000 ",1bd,2ba,"1,152 sqft",AUCTION,1960
 "5900 Mosteller Dr #53,
-Oklahoma City, OK 73112","$200,000",1bd,2ba,"1,152 sqft",AUCTION
+Oklahoma City, OK 73112","$200,000 ",1bd,2ba,"1,152 sqft",AUCTION,1960
 "5900 Mosteller Dr #193,
-Oklahoma City, OK 73112","$450,000",2bd,2ba,"1,305 sqft",AUCTION
+Oklahoma City, OK 73112","$450,000 ",2bd,2ba,"1,305 sqft",AUCTION,1960
 "5900 Mosteller Dr #33,
-Oklahoma City, OK 73112","$200,000",1bd,2ba,"1,152 sqft",AUCTION
+Oklahoma City, OK 73112","$200,000 ",1bd,2ba,"1,152 sqft",AUCTION,1960
 "5900 Mosteller Dr #54,
-Oklahoma City, OK 73112","$300,000",2bd,3ba,"1,617 sqft",AUCTION
+Oklahoma City, OK 73112","$300,000 ",2bd,3ba,"1,617 sqft",AUCTION,1960
 "5900 Mosteller Dr #63,
-Oklahoma City, OK 73112","$200,000",1bd,2ba,"1,152 sqft",AUCTION
+Oklahoma City, OK 73112","$200,000 ",1bd,2ba,"1,152 sqft",AUCTION,1960
 "5900 Mosteller Dr #103,
-Oklahoma City, OK 73112","$225,000",1bd,2ba,"1,152 sqft",AUCTION
+Oklahoma City, OK 73112","$225,000 ",1bd,2ba,"1,152 sqft",AUCTION,1960
 "5900 Mosteller Dr #51,
-Oklahoma City, OK 73112","$200,000",1bd,2ba,"1,348 sqft",AUCTION
+Oklahoma City, OK 73112","$200,000 ",1bd,2ba,"1,348 sqft",AUCTION,1960
 "5900 Mosteller Dr #61,
-Oklahoma City, OK 73112","$225,000",1bd,2ba,"1,348 sqft",AUCTION
+Oklahoma City, OK 73112","$225,000 ",1bd,2ba,"1,348 sqft",AUCTION,1960
 "5900 Mosteller Dr #41,
-Oklahoma City, OK 73112","$200,000",1bd,2ba,"1,348 sqft",AUCTION
+Oklahoma City, OK 73112","$200,000 ",1bd,2ba,"1,348 sqft",AUCTION,1960
 "5900 Mosteller Dr #31,
-Oklahoma City, OK 73112","$200,000",1bd,2ba,"1,348 sqft",AUCTION
+Oklahoma City, OK 73112","$200,000 ",1bd,2ba,"1,348 sqft",AUCTION,1960
 "540 Carpenter Trl,
-Arcadia, OK 73007","$499,900",4bd,3ba,"3,257 sqft (on 2.07 acres)","NEW - 2 DAYS AGO
-BANK OWNED"
+Arcadia, OK 73007","$499,900 ",4bd,3ba,"3,257 sqft (on 2.07 acres)","NEW - 2 DAYS AGO
+BANK OWNED",2020
 "3605 N Donna Ave,
-Bethany, OK 73008","$105,900",2bd,2ba,"1,128 sqft (on 0.34 acres)","BANK OWNED
-0.34 ACRES"
+Bethany, OK 73008","$105,900 ",2bd,2ba,"1,128 sqft (on 0.34 acres)","BANK OWNED
+0.34 ACRES",1948
 "17061 Winding Creek Dr,
-Newalla, OK 74857","$121,500",3bd,2ba,"1,616 sqft (on 1.63 acres)","BANK OWNED
-1.63 ACRES"
+Newalla, OK 74857","$121,500 ",3bd,2ba,"1,616 sqft (on 1.63 acres)","BANK OWNED
+1.63 ACRES",1983
 "NW 178th St,
-Piedmont, OK 73078","$550,000",,,,"BANK OWNED
-12.15 ACRES"
+Piedmont, OK 73078","$550,000 ",,,,"BANK OWNED
+12.15 ACRES",
