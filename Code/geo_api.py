@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 import json
 
-df = pd.read_csv("c:\\temp\\sheriffsales_clean.csv")
+df = pd.read_csv('C:\\Users\\Rober\\Documents\\GitHub\\MSIS5193_BGJRGroup_Project\\Clean Data\\combined.csv')
 
 api_url = 'https://geocoding.geo.census.gov/geocoder/locations/address'
 
@@ -18,7 +18,13 @@ while cnt < rec_cnt:
     state = df.iloc[cnt,2]
     full_url = api_url + '?street=' + street.replace(' ','+') + '&city=' + city.strip().replace(' ','+') + '&state=' + state + '&benchmark=2020&format=json'
     response = requests.get(full_url)
-    data = response.json()
+    
+    try:
+        data = response.json()
+    except:
+        cnt += 1
+        continue
+
     result = response.json()['result']
     matches = result['addressMatches']
 
@@ -34,4 +40,4 @@ while cnt < rec_cnt:
     df.iloc[cnt,3] = matched_address_parts['zip']
     cnt += 1
 
-df.to_csv('c:\\temp\\sheriffsales_clean_geo.csv', index=False)
+df.to_csv('C:\\Users\\Rober\\Documents\\GitHub\\MSIS5193_BGJRGroup_Project\\Final Data\\final_dataset.csv', index=False)

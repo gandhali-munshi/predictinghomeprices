@@ -41,6 +41,8 @@ for file in files:
         df.iloc[cnt,1] = city
         df.iloc[cnt,2] = state
         #df.iloc[cnt,13] = 'Trulia'
+        df.iloc[cnt,6] = str(df.iloc[cnt,6]).replace('bd','')
+        df.iloc[cnt,7] = str(df.iloc[cnt,7]).replace('ba','')
         cnt += 1
 
     df.to_csv('C:\\Users\\Rober\\Documents\\GitHub\\MSIS5193_BGJRGroup_Project\\Clean Data\\' + file.replace('.csv','_clean.csv'), index=False)

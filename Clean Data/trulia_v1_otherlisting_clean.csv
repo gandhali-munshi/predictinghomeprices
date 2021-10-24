@@ -1,29 +1,29 @@
 Address,City,State,Zip,AppraisalValue,sqft,beds,baths,yearbuilt,renoyear,DaysOnMarket,LastSaleDate,SalesDate,SaleType,Lat,Long
-431 NW 47th St,Oklahoma City,OK,,Price Unknown,"1,258 sqft",3bd,1ba,1950.0,,,,,"NEW - 1 DAY AGO
+431 NW 47th St,Oklahoma City,OK,,Price Unknown,"1,258 sqft",3,1,1950.0,,,,,"NEW - 1 DAY AGO
 AUCTION",,
-4920 SE 58th Pl,Oklahoma City,OK,,Price Unknown,"2,234 sqft",4bd,2ba,1978.0,,,,,AUCTION,,
-3037 N Zedna Dr,Oklahoma City,OK,,,"1,392 sqft",3bd,1ba,1955.0,,,,,BANK OWNED,,
-8332 NW 110th Ter,Oklahoma City,OK,,Price Unknown,"1,956 sqft",3bd,2ba,1983.0,,,,,AUCTION,,
-6404 Brentford Ter,Oklahoma City,OK,,Price Unknown,"2,753 sqft",5bd,3ba,1971.0,,,,,AUCTION,,
-5916 SE 69th St,Oklahoma City,OK,,Price Unknown,"1,411 sqft",3bd,2ba,2004.0,,,,,AUCTION,,
-2113 SW 68th St,Oklahoma City,OK,,Price Unknown,"1,081 sqft",3bd,1ba,1955.0,,,,,AUCTION,,
-4201 NW 50th St,Oklahoma City,OK,,Price Unknown,"1,905 sqft (on 0.53 acres)",3bd,2ba,1964.0,,,,,"AUCTION
+4920 SE 58th Pl,Oklahoma City,OK,,Price Unknown,"2,234 sqft",4,2,1978.0,,,,,AUCTION,,
+3037 N Zedna Dr,Oklahoma City,OK,,,"1,392 sqft",3,1,1955.0,,,,,BANK OWNED,,
+8332 NW 110th Ter,Oklahoma City,OK,,Price Unknown,"1,956 sqft",3,2,1983.0,,,,,AUCTION,,
+6404 Brentford Ter,Oklahoma City,OK,,Price Unknown,"2,753 sqft",5,3,1971.0,,,,,AUCTION,,
+5916 SE 69th St,Oklahoma City,OK,,Price Unknown,"1,411 sqft",3,2,2004.0,,,,,AUCTION,,
+2113 SW 68th St,Oklahoma City,OK,,Price Unknown,"1,081 sqft",3,1,1955.0,,,,,AUCTION,,
+4201 NW 50th St,Oklahoma City,OK,,Price Unknown,"1,905 sqft (on 0.53 acres)",3,2,1964.0,,,,,"AUCTION
 0.53 ACRES",,
-5029 Federal Ct,Oklahoma City,OK,,Price Unknown,"1,303 sqft",3bd,1ba,1977.0,,,,,AUCTION,,
-620 SW 49th St,Oklahoma City,OK,,Price Unknown,"1,103 sqft",3bd,1ba,1949.0,,,,,AUCTION,,
-9500 SW 33rd St,Oklahoma City,OK,,Price Unknown,"2,755 sqft (on 0.29 acres)",4bd,4ba,1994.0,,,,,"AUCTION
+5029 Federal Ct,Oklahoma City,OK,,Price Unknown,"1,303 sqft",3,1,1977.0,,,,,AUCTION,,
+620 SW 49th St,Oklahoma City,OK,,Price Unknown,"1,103 sqft",3,1,1949.0,,,,,AUCTION,,
+9500 SW 33rd St,Oklahoma City,OK,,Price Unknown,"2,755 sqft (on 0.29 acres)",4,4,1994.0,,,,,"AUCTION
 0.29 ACRES",,
-2408 N Glenhaven Dr,Oklahoma City,OK,,,"2,572 sqft",Studio,2.5ba,,,,,,BANK OWNED,,
-16200 Royal Crest Ln,Edmond,OK,,Price Unknown,"2,203 sqft (on 3 acres)",4bd,2ba,2014.0,,,,,AUCTION,,
-30708 Kickapoo Rd,Mcloud,OK,,,"1,486 sqft (on 1 acre)",3bd,2ba,1950.0,,,,,"BANK OWNED
+2408 N Glenhaven Dr,Oklahoma City,OK,,,"2,572 sqft",Studio,2.5,,,,,,BANK OWNED,,
+16200 Royal Crest Ln,Edmond,OK,,Price Unknown,"2,203 sqft (on 3 acres)",4,2,2014.0,,,,,AUCTION,,
+30708 Kickapoo Rd,Mcloud,OK,,,"1,486 sqft (on 1 acre)",3,2,1950.0,,,,,"BANK OWNED
 3 ACRES",,
-1226 W Heidi Way,Mustang,OK,,Price Unknown,"1,291 sqft",3bd,1ba,1984.0,,,,,"AUCTION
+1226 W Heidi Way,Mustang,OK,,Price Unknown,"1,291 sqft",3,1,1984.0,,,,,"AUCTION
 1 ACRE",,
-339 E Carson Ln,Mustang,OK,,Price Unknown,"1,710 sqft (on 1.37 acres)",3bd,2ba,1975.0,,,,,AUCTION,,
-990 County Street 2976,Blanchard,OK,,Price Unknown,"3,680 sqft (on 0.44 acres)",3bd,3ba,1987.0,,,,,"AUCTION
+339 E Carson Ln,Mustang,OK,,Price Unknown,"1,710 sqft (on 1.37 acres)",3,2,1975.0,,,,,AUCTION,,
+990 County Street 2976,Blanchard,OK,,Price Unknown,"3,680 sqft (on 0.44 acres)",3,3,1987.0,,,,,"AUCTION
 1.37 ACRES",,
-12625 Chisholm Spur,Yukon,OK,,Price Unknown,"1,702 sqft",7bd,2ba,1996.0,,,,,"AUCTION
+12625 Chisholm Spur,Yukon,OK,,Price Unknown,"1,702 sqft",7,2,1996.0,,,,,"AUCTION
 0.44 ACRES",,
-1038 Cambridge Dr,Yukon,OK,,,"1,200 sqft",3bd,2ba,1974.0,,,,,BANK OWNED,,
-1408 Bill Carroll Dr,Norman,OK,,Price Unknown,"1,353 sqft",3bd,2ba,1972.0,,,,,AUCTION,,
-213 Cindy Ave,Norman,OK,,Price Unknown,,3bd,,1980.0,,,,,AUCTION,,
+1038 Cambridge Dr,Yukon,OK,,,"1,200 sqft",3,2,1974.0,,,,,BANK OWNED,,
+1408 Bill Carroll Dr,Norman,OK,,Price Unknown,"1,353 sqft",3,2,1972.0,,,,,AUCTION,,
+213 Cindy Ave,Norman,OK,,Price Unknown,,3,nan,1980.0,,,,,AUCTION,,
