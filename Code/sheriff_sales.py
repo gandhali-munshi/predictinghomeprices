@@ -5,6 +5,8 @@ import numpy as np
 import time
 import pandas as pd
 
+# There is a lot going on in this. The primary purpose is to scrape the sheriff sales records from the 
+# Oklahoma County site. These are properties that are scheduled to undergo a sheriff's sale in the next two months
 
 driver = webdriver.Firefox(executable_path='c:\\Users\\Rober\\Documents\\geckodriver.exe')
 
@@ -14,6 +16,8 @@ sales_date_list = []
 address_list = []
 appraisal_list = []
 
+# The dropdpwn selection on the sheriff's site has three options because they list
+# the next three sales, so we need to loop through this 3 times.
 i = 1
 while i < 4:
     driver.get(sheriff_url)
@@ -30,6 +34,10 @@ while i < 4:
     time.sleep(2)
 
     data = driver.find_elements_by_css_selector('td:nth-child(3) > font.featureFont')
+
+    # The html on this page is a mess. tables within tables within tables
+    # so I'm using some modular math 'magic' to get to each property, as each one
+    # has 9 elements and we want the first, third, and sixth ones.
 
     element_cnt = 0
     while element_cnt < len(data):
@@ -56,6 +64,11 @@ df["yearbuilt"] = np.nan
 df["renoyear"] = np.nan
 
 driver.quit()
+
+# Below we attempt to use realtor.com to fill in a lot of the missing data that was not on the 
+# sheriff's site. Unfortunately, realtor.com started to have a bot challenge triggered, so the 
+# time.sleep are fairly random as this was the best techique I could find to get past that challenge
+# the most, though it does have to be played with a couple of times to get through the whole list
 
 cnt = 0
 
@@ -98,7 +111,7 @@ while cnt < total_records:
     
     # Check to see if we even found the address
     if len(num_beds_list) < 1:
-        df.iloc[cnt,3] = 100
+        df.iloc[cnt,3] = 100 #Putting in 100 bedrooms to indicate that this row couldn't be found. We'll filter these out later
         cnt += 1
         driver.quit()
         continue

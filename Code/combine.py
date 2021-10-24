@@ -2,6 +2,8 @@ import numpy as np
 import time
 import pandas as pd
 
+# This takes all the cleaned data sets that are still individualized and combine them into one master data set
+
 clean_data_dr = 'C:\\Users\\Rober\\Documents\\GitHub\\MSIS5193_BGJRGroup_Project\\Clean Data\\'
 
 files = ['trulia_v1_clean.csv',

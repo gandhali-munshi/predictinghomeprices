@@ -5,7 +5,7 @@ final_data_file = 'C:\\Users\\Rober\\Documents\\GitHub\\MSIS5193_BGJRGroup_Proje
 
 df = pd.read_csv(final_data_file)
 
-# Get columns named correctly
+# Get columns named correctly according to data dictionary
 df = df.rename(columns={'AppraisalValue':'Value'})
 df = df.rename(columns={'sqft':'Sqft'})
 df = df.rename(columns={'beds':'Beds'})
@@ -17,6 +17,7 @@ df = df.rename(columns={'SaleType':'SourceType'})
 df = df.rename(columns={'Lat':'Latitude'})
 df = df.rename(columns={'Long':'Longitude'})
 
+# Filter out those addresses we could never find any meta data on
 reduced = df[(df.Beds!='100')]
 
 reduced.to_csv(final_data_file, index=False)
