@@ -1,1 +1,1 @@
-# MSIS5193_BGJRGroup_Project
+# Predicting home prices
